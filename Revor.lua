@@ -6524,7 +6524,7 @@ if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/yousef_labban1'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n•عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
-Redis:set(Youssef.."Lock:forward"..msg_chat_id,"del")  
+Redis:set(Revor.."Lock:forward"..msg_chat_id,"del")  
 LuaTele.sendText(msg_chat_id,msg_id,Reply_Status(msg.sender.user_id,"•تم قفـل التوجيه").Lock,"md",true)  
 return false
 end 
@@ -6536,7 +6536,7 @@ if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/yousef_labban1'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n•عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
-Redis:set(Youssef.."Lock:forward"..msg_chat_id,"ked")  
+Redis:set(Revor.."Lock:forward"..msg_chat_id,"ked")  
 LuaTele.sendText(msg_chat_id,msg_id,Reply_Status(msg.sender.user_id,"•تم قفـل التوجيه").lockKid,"md",true)  
 return false
 end 
@@ -6548,7 +6548,7 @@ if ChannelJoin(msg) == false then
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/yousef_labban1'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n•عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
-Redis:set(Youssef.."Lock:forward"..msg_chat_id,"ktm")  
+Redis:set(Revor.."Lock:forward"..msg_chat_id,"ktm")  
 LuaTele.sendText(msg_chat_id,msg_id,Reply_Status(msg.sender.user_id,"•تم قفـل التوجيه").lockKtm,"md",true)  
 return false
 end 
